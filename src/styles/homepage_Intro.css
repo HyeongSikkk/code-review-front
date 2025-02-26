@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap");
+
+.code-window {
+  width: 40vw;
+  height: 60vh;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Fira Code", monospace;
+  overflow: hidden;
+}
+
+/* VS Code 스타일 윈도우 바 */
+.window-bar {
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 닫기, 최소화, 최대화 버튼 */
+.icons {
+  display: flex;
+  gap: 6px;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.red { background: #ff5f57; }
+.yellow { background: #ffbd2e; }
+.green { background: #28c840; }
+
+/* 코드 창 내용 */
+.content {
+  padding: 16px;
+  overflow: auto;
+}
